@@ -20,7 +20,6 @@
     IBOutlet UIButton *seven;
     IBOutlet UIButton *eight;
     IBOutlet UIButton *nine;   //9
- 
     IBOutlet UIButton *sum;    //+
     IBOutlet UIButton *sub;    //-
     IBOutlet UIButton *div;    //÷
@@ -34,10 +33,6 @@
     BOOL StartInput;
     double current;
     int operation;
-    int x;
-    int count;
-    int y;
-    int z;
 }
 -(IBAction)NumberButton:(id)sender;
 -(IBAction)clearButton:(id)sender;
