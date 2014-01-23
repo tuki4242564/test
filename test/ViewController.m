@@ -18,7 +18,6 @@
 	StartInput=YES;
     current = 0;
 }
-
 -(IBAction)equalButtonPressed:(id)sender
 {
     
